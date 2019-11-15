@@ -1,0 +1,9 @@
+development:
+    dialect: postgres
+    datasource: host=127.0.0.1 port=5432 dbname=sampledb user=sample password=sample sslmode=disable
+    dir: resources/db/migrations/postgres
+
+production:
+    dialect: postgres
+    datasource: host=127.0.0.1 port=5432 dbname=sampledb user=sample password=sample sslmode=disable
+    dir: resources/db/migrations/postgres
