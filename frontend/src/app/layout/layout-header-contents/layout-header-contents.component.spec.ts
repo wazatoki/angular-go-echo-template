@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LayoutHeaderContentsComponent } from './layout-header-contents.component';
+import { HeaderComponent } from '../../header/header.component'
 
 describe('LayoutHeaderContentsComponent', () => {
   let component: LayoutHeaderContentsComponent;
@@ -8,7 +9,10 @@ describe('LayoutHeaderContentsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LayoutHeaderContentsComponent ]
+      declarations: [
+        LayoutHeaderContentsComponent,
+        HeaderComponent,
+      ]
     })
     .compileComponents();
   }));
