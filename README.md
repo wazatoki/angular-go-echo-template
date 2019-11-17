@@ -61,6 +61,7 @@ prease setup production database by postgresql
 
     npm install
 
+frontend側のプロジェクトを作成するときアプリケーション名で作成してディレクトリ名をfrontendに変更する。
 
 
 ## Licence
